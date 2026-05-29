@@ -1,0 +1,35 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+backend/.env
+frontend/.env
+
+# Node.js
+node_modules
+.next/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+backend/env/
+.venv/
+env/
+.pytest_cache/
+
+# Local databases
+backend/db.sqlite3
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
