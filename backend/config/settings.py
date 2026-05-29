@@ -91,7 +91,7 @@ if 'test' in sys.argv:
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
-elif DATABASE_URL.startswith('postgresql'):
+elif DATABASE_URL.startswith('postgres'):
     import dj_database_url
     DATABASES = {
         'default': dj_database_url.config(default=DATABASE_URL, conn_max_age=600)
